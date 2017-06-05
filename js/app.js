@@ -24,13 +24,13 @@ angular.module('devmtnTravel', ['ui.router'])
 
             .state('adventurers', {
               url: '/adventurers',
-              parent: '/',
+              parent: 'home',
               templateUrl: 'views/about-adventurers.html'
             })
 
             .state('contact', {
               url: '/contact',
-              parent: '/',
+              parent: 'home',
               templateUrl: 'views/contact.html'
             })
 
