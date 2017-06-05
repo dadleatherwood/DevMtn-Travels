@@ -1,4 +1,23 @@
 angular.module('devmtnTravel').service('mainSrv', function(){
+
+    this.getTravelInfo = function () {
+      return this.travelInfo;
+    }
+
+    this.getPackageInfo = function (country) {
+      var filteredPackages = this.packageInfo.filter(function(element) {
+        return (element.country === country)
+      })
+      return filteredPackages;
+    }
+
+    this.getPackageInfoById = function (id) {
+      var filteredPackagesById = this.packageInfo.find(function(element){
+        return (element.id === id)
+      })
+      return filteredPackagesById
+    }
+
     this.travelInfo = [{
         country: 'United States',
         image: "../img/US.jpg",
