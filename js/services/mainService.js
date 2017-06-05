@@ -79,21 +79,21 @@ angular.module('devmtnTravel').service('mainSrv', function(){
 			},{
 				city: "Sydney",
 				country: "Australia",
-				image: "../img/Sydney.jpg",
+				image: "img/Sydney.jpg",
 				desc: "Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Opera House, with a distinctive sail-like design. Massive Darling Harbour and Circular Qua",
 				id: 7557,
 				price: 1112
 			},{
 				city: "Perth",
 				country: "Australia",
-				image: "../img/Perth.jpg",
+				image: "img/Perth.jpg",
 				desc: "Perth, capital of Western Australia, sits where the Swan River meets the southwest coast. Sandy beaches line its suburbs, and the huge, riverside Kings Park and Botanic Garden on Mt. Eliza offer sweeping views of the city.",
 				id: 5010,
 				price: 2488.92
 			},{
 				city: "Melbourne",
 				country: "Australia",
-				image: "../img/melbourne.jpg",
+				image: "img/melbourne.jpg",
 				desc: "Melbourne is the coastal capital of the southeastern Australian state of Victoria. At the city's centre is the modern Federation Square development, with plazas, bars, and restaurants by the Yarra River.",
 				id: 3544,
 				price: 1722.12
